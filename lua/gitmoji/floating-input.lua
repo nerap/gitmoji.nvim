@@ -2,6 +2,7 @@ local M = {}
 
 local function confirm_action(callback, window, buffer)
   local lines = vim.api.nvim_buf_get_lines(buffer, 0, 1, false)
+  print("result" , lines[1])
   callback(lines[1])
   vim.api.nvim_win_close(window, true)
   vim.cmd("stopinsert")
