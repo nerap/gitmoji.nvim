@@ -10,4 +10,3 @@ echo "return { $(curl -s https://raw.githubusercontent.com/carloscuesta/gitmoji/
 | sed 's/null/nil/' \
 | sed 's/^\[//' \
 | sed 's/\]$//') }" > $gitmojis
-
