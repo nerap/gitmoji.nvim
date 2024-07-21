@@ -15,14 +15,14 @@
   </a>
 </div>
 
-# 🔭 Neo gitmoji
+# 🔭 Gitmoji
 
 A Telescope integration for [gitmoji](https://gitmoji.dev/).
 
 <!-- <video-link> -->
 
 <!--toc:start-->
-- [🔭 Neo gitmoji](#🔭-neo-gitmoji)
+- [🔭 Gitmoji](#🔭-gitmoji)
   - [Installation](#installation)
   - [Usage](#usage)
     - [Customize a keymap](#customize-a-keymap)
