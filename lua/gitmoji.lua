@@ -9,12 +9,12 @@ function M.setup()
   config.set_keymaps()
 end
 
-function M.open_floating(callback)
+function M.open_floating(callback, verify)
    picker(function(value)
     floating_input.create_floating_buffer({
       title = "Enter the commit title: [gitmoji " .. value.emoji .. "]",
       on_confirmation_callback = function(message)
-        callback(value.emoji .. " " .. message)
+        callback(value.emoji .. " " .. message, verify)
       end
     })
   end)
